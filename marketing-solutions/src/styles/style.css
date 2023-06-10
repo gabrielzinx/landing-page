@@ -2,6 +2,7 @@
 
 :root {
     --bg-primary: #0D0D11;
+    --bg-secondary: #81818b33;
     --blue-primary: #3D96F4;
     --fontDefault: "Poppins", "Arial", "Helvetica", "sans-serif";
 }
@@ -16,6 +17,53 @@
 body {
     background-color: var(--bg-primary);
     height: 500vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 138px;
+}
+
+h1 {
+    font-family: var(--fontDefault);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 51.2px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: var(--fontDefault);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #9C9C9C;    
+}
+
+.button-action {
+    font-family: var(--fontDefault);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: 2px;
+    
+    color: #FFFFFF;
+    
+    height: 52px;
+    padding: 8px 22px;
+    background-color: var(--blue-primary);
+    border-radius: 50px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.button-action:hover {
+    transform: scale(1.04);
 }
 
 ::-webkit-scrollbar {
