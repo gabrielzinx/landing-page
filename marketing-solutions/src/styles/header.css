@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-:root {
-    --bg-primary: #0D0D11;
-    --color-primary: #3D96F4;
-    --fontDefault: "Poppins", "Arial", "Helvetica", "sans-serif";
-}
+@import "./style.css";
 
 header {
     display: flex;
@@ -37,7 +31,7 @@ header > div {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 40%;
+    width: 25%;
 }
 
 header nav {
@@ -71,17 +65,17 @@ header button {
     
     height: 52px;
     padding: 8px 22px;
-    background-color: var(--color-primary);
+    background-color: var(--blue-primary);
     border-radius: 50px;
     transition: 200ms;
 
-    box-shadow: 0 0 2px var(--color-primary), 0 0 2px var(--color-primary), 0 0 4px var(--color-primary), 0 0 4px var(--color-primary);
+    box-shadow: 0 0 2px var(--blue-primary), 0 0 2px var(--blue-primary), 0 0 4px var(--blue-primary), 0 0 4px var(--blue-primary);
     cursor: pointer;
 }
 
 header button:hover {
     transform: scale(1.04);
-    box-shadow: 0 0 4px var(--color-primary), 0 0 4px var(--color-primary), 0 0 16px var(--color-primary), 0 0 16px var(--color-primary);
+    box-shadow: 0 0 4px var(--blue-primary), 0 0 4px var(--blue-primary), 0 0 16px var(--blue-primary), 0 0 16px var(--blue-primary);
 }
 
 @media screen and (max-width: 900px) {
