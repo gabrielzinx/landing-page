@@ -16,7 +16,7 @@
 
 body {
     background-color: var(--bg-primary);
-    height: 500vh;
+    height: 600vh;
 }
 
 main {
@@ -33,6 +33,16 @@ h1 {
     color: #FFFFFF;
 }
 
+h3 {
+    font-family: var(--fontDefault);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
 p {
     font-family: var(--fontDefault);
     font-style: normal;
@@ -42,18 +52,33 @@ p {
     color: #9C9C9C;    
 }
 
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #81818b33;
+    border-radius: 12px;
+    width: 102px;
+    height: 38px;
+}
+
+.tag > p {
+    font-size: 10.8px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9C9C9C;
+}
+
 .button-action {
     font-family: var(--fontDefault);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;
-
     text-align: center;
     letter-spacing: 2px;
-    
     color: #FFFFFF;
-    
     height: 52px;
     padding: 8px 22px;
     background-color: var(--blue-primary);
