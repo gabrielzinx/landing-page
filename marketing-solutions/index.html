@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="./src/styles/header.css">
     <link rel="stylesheet" href="./src/styles/home.css">
+    <link rel="stylesheet" href="./src/styles/logos-scroll.css">
 </head>
 <body>
     <header>
         <div>
-            <img src="./src/logos/primary.png" alt="logo-marketing-solutions">
+            <img src="./src/logos/Logo.svg" alt="logo-marketing-solutions">
         </div>
         <nav>
             <ul>
@@ -28,7 +29,9 @@
         <section id="home" class="home">
             <article class="content">
                 <h1>Marketing solutions <br> that grow your <br> business.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> suspendisse varius enim in eros elementum tristique. <br> Duis cursus, mi quis viverra ornare, eros dolor.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                    suspendisse varius enim in eros elementum tristique. <br>
+                    Duis cursus, mi quis viverra ornare, eros dolor.</p>
                 <div>
                     <button class="button-action service">Our Services</button>
                     <button class="button-action contact">Contact us</button>
@@ -45,6 +48,25 @@
                 </aside>
             </article>
         </section>
+        <section class="logo-division">
+            <p>TRUSTED BY startups and large enterprises</p>
+            <div class="logos">
+                <div class="logos-slide">
+                    <img src="./src/logos/Greenish.svg" alt="Logo-Greenish"/>
+                    <img src="./src/logos/Luminous.svg" alt="Logo-Greenish"/>
+                    <img src="./src/logos/Pronature.svg" alt="Logo-Greenish"/>
+                    <img src="./src/logos/Sitemark.svg" alt="Logo-Greenish"/>
+                    <img src="./src/logos/Waveless.svg" alt="Logo-Greenish"/>
+                </div>
+            </div>
+        </section>
     </main>
+    <script>
+        const LOGO_CLONE_LENGTH = 4;
+        for (let index = 1; index <= LOGO_CLONE_LENGTH; index++) {
+            var copy = document.querySelector(".logos-slide").cloneNode(true);
+            document.querySelector(".logos").appendChild(copy);
+        };
+    </script>
 </body>
 </html>
