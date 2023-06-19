@@ -12,13 +12,22 @@
 
 .about {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     padding-block: 120px;
+    gap: 190px;
 }
 
 .about .container-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.about .container-1 .content-1 {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -30,18 +39,18 @@
     padding-left: 16px;
 }
 
-.about .container-1 .person-01 {
+.about .container-1 .content-1 .person-01 {
     width: 260px;
     height: 510px;
     border-radius: 3078px 0px 1550px 1578px;
 }
 
-.about .container-1 .person-02 {
+.about .container-1 .content-1 .person-02 {
     width: 150px;
     border-radius: 181.438px 181.438px 181.438px 0px;
 }
 
-.about .container-2 {
+.about .container-1 .content-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,17 +59,17 @@
     gap: 20px;
 }
 
-.about .container-2 .tag {
+.about .container-1 .content-2 .tag {
     width: 150px;
     height: 40px;
 }
 
-.about .container-2 h1 {
+.about .container-1 .content-2 h1 {
     font-size: 42px;
     line-height: 48px;
 }
 
-.about .container-2 ul {
+.about .container-1 .content-2 ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -68,9 +77,54 @@
     gap: 16px;
 }
 
-.about .container-2 ul li {
+.about .container-1 .content-2 ul li {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
+}
+
+.about .container-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 32px;
+}
+
+.about .container-2 .content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about .container-2 .content-1 div {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.about .container-2 .content-1 div article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #19191D;
+    width: 320px;
+    height: 220px;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.about .container-2 h1 {
+    font-size: 30px;
+}
+
+.about .container-2 p {
+    font-size: 16px;
+}
+
+.about .container-2 .content-2 img {
+    height: 480px;
+    border-radius: 0px 460px 378px 378px;
 }
