@@ -1,0 +1,76 @@
+.icon-check {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #19191D;
+    background-image: url("./../icons/icon-check.svg");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 120px;
+}
+
+.about .container-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-image: url("./../icons/pointers.png");
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    padding-left: 16px;
+}
+
+.about .container-1 .person-01 {
+    width: 260px;
+    height: 510px;
+    border-radius: 3078px 0px 1550px 1578px;
+}
+
+.about .container-1 .person-02 {
+    width: 150px;
+    border-radius: 181.438px 181.438px 181.438px 0px;
+}
+
+.about .container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+    height: 100%;
+    gap: 20px;
+}
+
+.about .container-2 .tag {
+    width: 150px;
+    height: 40px;
+}
+
+.about .container-2 h1 {
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.about .container-2 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    gap: 16px;
+}
+
+.about .container-2 ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
