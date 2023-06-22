@@ -20,8 +20,8 @@
         <nav>
             <ul>
                 <li><a href="#main">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#carts">Carts</a></li>
                 <li><button class="button-action">Get started</button></li>
@@ -236,6 +236,15 @@
             var copy = document.querySelector(".logos-slide").cloneNode(true);
             document.querySelector(".logos").appendChild(copy);
         };
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
     </script>
 </body>
 </html>
