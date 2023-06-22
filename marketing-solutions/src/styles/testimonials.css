@@ -1,0 +1,100 @@
+.icon-star {
+    display: block;
+    background-image: url("./../icons/icon-star.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.list-stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    padding-top: 108px;
+    gap: 50px
+}
+
+.testimonials .tag {
+    width: 130px;
+}
+
+.testimonials h2 {
+    color: #FFF;
+    font-size: 16px;
+    font-family: var(--fontDefault);
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.testimonials h3 {
+    font-size: 32px;
+    line-height: 44.8px;
+}
+
+.testimonials > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 30px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.items p { 
+    max-width: 750px;
+}
+
+.testimonials > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+    list-style: none;
+}
+
+.testimonials > ul > li {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-tertiary);
+    width: 28%;
+    padding: 64px 40px;
+    border-radius: 30px;
+    gap: 32px;
+}
+
+.testimonials .sub-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.testimonials .sub-header > div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.person-01 {
+    border-radius: 0px 68.031px 68.031px 68.031px;
+}
+
+.person-02 {
+    border-radius: 68.031px 0px 68.031px 68.031px;
+}
+
+.person-03 {
+    border-radius: 68.031px 68.031px 0px 68.031px;
+}

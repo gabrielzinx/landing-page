@@ -3,6 +3,7 @@
 :root {
     --bg-primary: #0D0D11;
     --bg-secondary: #81818b33;
+    --bg-tertiary: #81818b1a;
     --blue-primary: #3D96F4;
     --fontDefault: "Poppins", "Arial", "Helvetica", "sans-serif";
 }
@@ -16,7 +17,7 @@
 
 body {
     background-color: var(--bg-primary);
-    height: 600vh;
+    height: 1000vh;
 }
 
 main {
