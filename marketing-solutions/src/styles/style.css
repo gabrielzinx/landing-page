@@ -44,6 +44,18 @@ h3 {
     text-transform: capitalize;
 }
 
+a {
+    font-family: var(--fontDefault);
+    font-weight: 300;
+    line-height: 22.4px;
+    color: #3D96F4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 p {
     font-family: var(--fontDefault);
     font-style: normal;

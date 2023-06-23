@@ -44,14 +44,14 @@
     padding-inline: 30px;
 }
 
-.items {
+.testimonials .items {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.items p { 
+.testimonials .items p { 
     max-width: 750px;
 }
 
