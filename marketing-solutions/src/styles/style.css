@@ -4,6 +4,7 @@
     --bg-primary: #0D0D11;
     --bg-secondary: #81818b33;
     --bg-tertiary: #81818b1a;
+    --color-paragraph: #9C9C9C;
     --blue-primary: #3D96F4;
     --fontDefault: "Poppins", "Arial", "Helvetica", "sans-serif";
 }
@@ -62,7 +63,7 @@ p {
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
-    color: #9C9C9C;    
+    color: #9C9C9C;
 }
 
 .tag {
@@ -80,7 +81,7 @@ p {
     line-height: 17px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #9C9C9C;
+    color: var(--color-paragraph);
 }
 
 .button-action {
@@ -98,6 +99,10 @@ p {
     border-radius: 50px;
     transition: 200ms;
     cursor: pointer;
+}
+
+.button-action.contact {
+    background-color: #81818b33;
 }
 
 .button-action:hover {
