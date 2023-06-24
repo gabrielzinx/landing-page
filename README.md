@@ -1,6 +1,6 @@
-# Landing Pages Showcase
+# Repositório de Landing Pages
 
-Este repositório é uma coleção de landing pages desenvolvidas por min com base em projetos publicados. Cada pasta contém um projeto separado, com seu próprio arquivo README.md fornecendo informações específicas sobre a respectiva landing page.
+Este repositório contém uma coleção de landing pages projetadas para atrair visitantes e convertê-los em clientes. Cada pasta contém uma landing page diferente, com designs e conteúdo otimizado para diferentes campanhas e objetivos de conversão. Feito para fins somente de estudos sem o intuito de lucro. Todos os direitos de uso dos criados estão reservados.
 
 ## Projetos
 
@@ -10,9 +10,11 @@ Este repositório é uma coleção de landing pages desenvolvidas por min com ba
 
 ## Como usar
 
-1. Clone este repositório em sua máquina local.
-2. Navegue até a pasta do projeto desejado.
-3. Siga as instruções fornecidas no arquivo README.md específico do projeto para configurar e executar a landing page.
+1. Faça um clone do repositório para sua máquina local
+2. Entre na pasta de cada landing page desejada
+3. Abra o arquivo *index.html* no navegador para visualizar a página
+4. Faça as alterações desejadas no código fonte
+5. Publique a página em seu servidor ou hospede-a em um serviço de hospedagem de landing pages
 
 ## Contribuições
 
@@ -26,3 +28,5 @@ Agradeço por sua compreensão.
 
 Este repositório é licenciado sob a Licença MIT. Consulte o arquivo LICENSE.md para obter mais informações.
 
+## Créditos
+Este repositório foi criado e mantido por [Gabriel].
