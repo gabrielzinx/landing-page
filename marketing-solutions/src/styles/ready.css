@@ -1,0 +1,42 @@
+.ready {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 200px;
+    padding: 52px 40px;
+    width: 88%;
+    max-width: 1200px;
+    border-radius: 30px;
+    background-color: var(--bg-tertiary);
+    align-self: center;
+}
+
+.ready h1 {
+    font-size: 32px;
+    line-height: 44.8px;
+}
+
+.ready p {
+    color: #9C9C9C;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.ready article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
+
+.ready aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}

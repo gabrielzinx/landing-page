@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bg-primary: #0D0D11;
+    --bg-secondary: #81818b33;
+    --bg-tertiary: #81818b1a;
+    --color-paragraph: #9C9C9C;
+    --blue-primary: #3D96F4;
+    --fontDefault: "Poppins", "Arial", "Helvetica", "sans-serif";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-primary);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 138px;
+}
+
+h1 {
+    font-family: var(--fontDefault);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 51.2px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: var(--fontDefault);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+a {
+    font-family: var(--fontDefault);
+    font-weight: 300;
+    line-height: 22.4px;
+    color: #3D96F4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: var(--fontDefault);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #9C9C9C;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #81818b33;
+    border-radius: 12px;
+    width: 102px;
+    height: 38px;
+}
+
+.tag > p {
+    font-size: 10.8px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--color-paragraph);
+}
+
+.button-action {
+    font-family: var(--fontDefault);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    height: 52px;
+    padding: 8px 22px;
+    background-color: var(--blue-primary);
+    border-radius: 50px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.button-action.contact {
+    background-color: #81818b33;
+}
+
+.button-action:hover {
+    transform: scale(1.04);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #454545;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #707070;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #c5c5c5ec;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #c5c5c5ec;
+}

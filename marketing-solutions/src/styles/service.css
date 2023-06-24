@@ -1,0 +1,100 @@
+.icon-like {
+    display: block;
+    background-image: url("./../icons/icon-like.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-email {
+    display: block;
+    background-image: url("./../icons/icon-email.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-dollar-sign {
+    display: block;
+    background-image: url("./../icons/icon-dollar-sign.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-search {
+    display: block;
+    background-image: url("./../icons/icon-search.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 108px;
+}
+
+.services .container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.services .container-1 button {
+    margin-top: 24px;
+    width: 160px;
+    height: 52px;
+}
+
+.services .container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 28%;
+    height: 532px;
+    gap: 32px;
+}
+
+.services .container-2 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.services .container-2 .content-1 {
+    justify-content: flex-end;
+}
+
+.services .container-2 .content-2 {
+    justify-content: flex-start;
+}
+
+.services .card {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 220px;
+    padding: 16px;
+    background-color: rgba(129, 129, 139, 0.1);
+    border-radius: 30px;
+    gap: 12px;
+}
+
+.services i {
+    width: 56px;
+    height: 56px;
+}
+
+.services .card h3 {
+    font-size: 16px;
+}
+
+.services .card p {
+    font-size: 14px;
+    line-height: normal;
+}
